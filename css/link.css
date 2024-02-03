@@ -1,0 +1,7 @@
+.link {
+    color: var(--white);
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+

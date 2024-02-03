@@ -1,0 +1,19 @@
+body {
+    /* margin: 0; */
+    font: var(--basefont-normal);
+    background-color: var(--gray10);
+  }
+  
+  h1{
+    font: var(--headline1);
+    color: var(--primary);
+  }
+  
+  h2{
+    font: var(--headline2);
+  }
+  
+  p{
+    color: var(--gray20);
+  }
+  

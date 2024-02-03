@@ -1,0 +1,25 @@
+@import "./logo.css";
+@import "./list.css";
+@import "./menu.css";
+
+
+
+.sidebar {
+    background-color: var(--gray50);
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-block-start: 1.5rem ;
+    padding-block-end: 1rem;
+    
+    inline-size: 15rem;
+    block-size: 42.5rem ;
+    overflow: auto;
+
+}
+
+.sidebar .list-item:hover::after {
+    background-color: var(--gray20);
+    border-radius: 8px;
+}

@@ -1,0 +1,51 @@
+.list{
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+}
+
+.list-title{
+    color: var(--gray10);
+    font: var(--basefont-normal);
+    margin-block-end: .5rem;
+    margin-block-start: 0;
+}
+
+.list-content {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.list-item a {
+    font: var(--basefont-bold);
+    display: block; /* Hace que el enlace ocupe todo el espacio del .list-item */
+    padding: .5rem; /* Ajusta el padding deseado */
+    color: var(--white); /* Hereda el color del texto del contenedor */
+    width: calc(100% - 2rem); /* Ajusta el ancho del enlace considerando el padding */
+    height: 100%; /* Ocupa toda la altura del .list-item */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del tamaño */
+    z-index: 1;
+}
+
+.list-item {
+    position: relative; /* Para poder posicionar el pseudo-elemento */
+    cursor: pointer;
+    z-index: 1;
+}
+
+.list-item::after {
+    content: ""; /* Agrega un pseudo-elemento */
+    position: absolute; /* Lo posiciona de forma absoluta */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent; 
+    transition: background-color 0.3s; 
+    border-radius: 8px;
+    /* z-index: -1; Coloca el pseudo-elemento detrás del contenido */
+}
+

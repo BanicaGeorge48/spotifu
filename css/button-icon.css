@@ -1,0 +1,35 @@
+.buttonIcon {
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+
+    
+    color: var(--gray10);
+}
+
+.buttonIcon.is-white {
+    color: var(--gray50);
+    background: var(--white);
+}
+
+.buttonIcon.is-primary {
+    color: var(--white);
+    background: var(--primary);
+}
+
+
+.buttonIcon .icon-play {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+.buttonIcon:active:is([class*="is-"]){ /*camcie esto por lo de abajo :is([class*="is-"])*/
+    transform: scale(.93);
+}
+
+.buttonIcon:hover{
+    transform: scale(1.05); 
+}

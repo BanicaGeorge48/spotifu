@@ -1,0 +1,45 @@
+.menuItem{
+
+}
+
+.menuItem a {
+    display: flex;
+    font: var(--button);
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    block-size: 2.5rem;
+    /* line-height: 2.5rem; */
+    align-items: center;
+    gap: 1rem;
+    color: var(--gray20);
+}
+
+.menuItem a:hover {
+    color: var(--white);
+    transition: color 0.5s;
+}
+
+.menuItem [class^="icon-"] {
+    font-size: 1.5rem;
+}
+
+.menuItem.is-active a {
+    box-shadow: inset 4px 0 0 var(--primary);
+    color: var(--white);
+    transition: color 0.5s;
+}
+
+.menuItem.is-active .icon-home::before {
+    content: "\e90a";
+
+}
+
+.menuItem.is-active .icon-search::before {
+    content: "\e914";
+
+}
+
+.menuItem.is-active .icon-creditCard::before {
+    content: "\e90a";
+
+}
