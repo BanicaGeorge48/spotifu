@@ -1,0 +1,28 @@
+.header{
+    /* border: 1px solid darkblue; */
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    padding-block-end: .5rem ;
+    padding-block-start: .5rem ;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: blur(15px);
+    /* border:none; */
+    /* background: rgba(58, 58, 58, 0.164); */
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+@supports not(backdrop-filter: blur(15px)) {
+    .header {
+        background: rgba(0, 0, 0, 0.349);
+    }
+
+}

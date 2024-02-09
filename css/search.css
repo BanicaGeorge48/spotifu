@@ -1,0 +1,35 @@
+.search{
+    position: relative;
+    flex: 1;
+
+}
+
+.search input {
+    background: var(--gray30);
+
+    border-radius: 20px;
+    border: none;
+    max-inline-size: 22rem;
+    width: 100%;
+    padding: .5rem;
+    padding-inline-start: 2rem;
+    font: var(--basefont-normal);
+    color: var(--white);
+}
+
+.search i {
+    position: absolute;
+    font-size: 1rem;
+    block-size: 1rem;
+    left: .5rem;
+    top: calc(50% - .5rem);
+    color: var(--gray10);
+}
+
+.search input::-webkit-input-placeholder{
+    color: var(--gray10);
+}
+
+.search:focus-within i{
+    color: var(--white);
+}

@@ -2,11 +2,12 @@
     /* border: 1px solid salmon; */
     display: flex;
     align-items: center;
+    padding-inline-end: 1rem;
 }
 
 .playerVolume-slider{
     /* border: 1px solid salmon; */
     flex: 1;
-    max-inline-size: 6rem;
+    inline-size: 6rem;
 
 }

@@ -32,104 +32,130 @@
     font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-/* use !important to prevent issues with browser extensions that change fonts */
-font-family: 'icomoon' !important;
-speak: never;
-font-style: normal;
-font-weight: normal;
-font-variant: normal;
-text-transform: none;
-line-height: 1;
 
-/* Better Font Rendering =========== */
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mobile:before {
+  content: "\e901";
+}
+.icon-repeatOne:before {
+  content: "\e91b";
+}
+.icon-repeat:before {
+  content: "\e91c";
+}
+.icon-queueMusic:before {
+  content: "\e900";
+}
 .icon-addPlus:before {
-    content: "\e900";
-  }
-  .icon-arrowLeft:before {
-    content: "\e901";
-  }
-  .icon-arrowRight:before {
-    content: "\e902";
-  }
-  .icon-calendar:before {
-    content: "\e903";
-  }
-  .icon-clock:before {
-    content: "\e904";
-  }
-  .icon-close:before {
-    content: "\e905";
-  }
-  .icon-creditCard:before {
-    content: "\e906";
-  }
-  .icon-download:before {
-    content: "\e907";
-  }
-  .icon-heart:before {
-    content: "\e908";
-  }
-  .icon-home:before {
-    content: "\e909";
-  }
-  .icon-homeActive:before {
-    content: "\e90a";
-  }
-  .icon-library:before {
-    content: "\e90b";
-  }
-  .icon-libraryActive:before {
-    content: "\e90c";
-  }
-  .icon-music:before {
-    content: "\e90d";
-  }
-  .icon-next:before {
-    content: "\e90e";
-  }
-  .icon-pause:before {
-    content: "\e90f";
-  }
-  .icon-play:before {
-    content: "\e910";
-  }
-  .icon-prev:before {
-    content: "\e911";
-  }
-  .icon-round:before {
-    content: "\e912";
-  }
-  .icon-search:before {
-    content: "\e913";
-  }
-  .icon-searchActive:before {
-    content: "\e914";
-  }
-  .icon-Vector:before {
-    content: "\e915";
-  }
-  .icon-volumeDown:before {
-    content: "\e916";
-  }
-  .icon-volumeOff:before {
-    content: "\e917";
-  }
-  .icon-volumeUp:before {
-    content: "\e918";
-  }
-  .icon-checkboxChecked:before {
-    content: "\ea52";
-  }
-  .icon-checkboxUnchecked:before {
-    content: "\ea53";
-  }
-  .icon-spotify1:before {
-    content: "\ea94";
-  }
-
-  
+  content: "\e902";
+}
+.icon-arrowLeft:before {
+  content: "\e903";
+}
+.icon-arrowRight:before {
+  content: "\e904";
+}
+.icon-calendar:before {
+  content: "\e905";
+}
+.icon-clock:before {
+  content: "\e906";
+}
+.icon-close:before {
+  content: "\e907";
+}
+.icon-creditCard:before {
+  content: "\e908";
+}
+.icon-download:before {
+  content: "\e909";
+}
+.icon-heart:before {
+  content: "\e90a";
+}
+.icon-home:before {
+  content: "\e90b";
+}
+.icon-homeActive:before {
+  content: "\e90c";
+}
+.icon-library:before {
+  content: "\e90d";
+}
+.icon-libraryActive:before {
+  content: "\e90e";
+}
+.icon-music:before {
+  content: "\e90f";
+}
+.icon-next:before {
+  content: "\e910";
+}
+.icon-pause:before {
+  content: "\e911";
+}
+.icon-play:before {
+  content: "\e919";
+}
+.icon-prev:before {
+  content: "\e91a";
+}
+.icon-round:before {
+  content: "\e912";
+}
+.icon-search:before {
+  content: "\e913";
+}
+.icon-searchActive:before {
+  content: "\e914";
+}
+.icon-Vector:before {
+  content: "\e915";
+}
+.icon-volumeDown:before {
+  content: "\e916";
+}
+.icon-volumeOff:before {
+  content: "\e917";
+}
+.icon-volumeUp:before {
+  content: "\e918";
+}
+.icon-mic:before {
+  content: "\e91e";
+}
+.icon-filePlay:before {
+  content: "\e929";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-checkmark2:before {
+  content: "\ea11";
+}
+.icon-shuffle:before {
+  content: "\ea30";
+}
+.icon-checkboxChecked:before {
+  content: "\ea52";
+}
+.icon-checkboxUnchecked:before {
+  content: "\ea53";
+}
+.icon-spotify1:before {
+  content: "\ea94";
+}

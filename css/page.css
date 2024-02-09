@@ -1,0 +1,33 @@
+@import "./playlist-compact.css";
+@import "./playlist-grid.css";
+@import "./playlist-list.css";
+@import "./search.css";
+@import "./navigation.css";
+@import "./header.css";
+@import "./sticky.css";
+
+.page{
+    padding-inline-start: .5rem;
+    padding-block-end: 2rem;
+
+
+}
+
+.page-block{
+    /* border-radius: 8px; */
+    /* background: linear-gradient(to bottom, var(--gray40) 10%, var(--gray50) 90%); */
+    background: rgba(39, 39, 39, 0.699);
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.page .header {
+    border-start-start-radius: .5rem;
+    border-start-end-radius: .5rem;
+
+    /* border-radius:.5rem ; */
+
+}

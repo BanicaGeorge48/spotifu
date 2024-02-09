@@ -1,0 +1,67 @@
+.playlistGrid{
+    /* border: 1px solid saddlebrown; */
+    inline-size: 13em;
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--gray40);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .3s background;
+    
+}
+
+.playlistGrid:hover .playlistGrid-cover button{
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+.playlistGrid:hover, .playlistGrid:focus-within{
+    background: var(--gray30);
+}
+
+.playlistGrid-cover img{
+    border-radius: 8px;
+    vertical-align: middle;
+    inline-size: 100% ;
+    block-size: 100%;
+
+}
+
+.playlistGrid-cover{
+    position: relative;
+    margin-block-end: 1rem ;
+}
+
+.playlistGrid button{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0;
+    transform: translateY(.5rem);
+    will-change: opacity, transform;
+    transition: .3s opacity, .3s transform;
+}
+
+.playlistGrid-title{
+    font: var(--basefont-bold);
+    color: var(--white);
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.playlistGrid-description{
+    font: var(--basefont-normal);
+    color: var(--gray10);
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
+

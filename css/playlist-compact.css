@@ -1,0 +1,59 @@
+.playlistCompact{
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    inline-size: 28.5rem;
+    block-size: 4rem;
+    border-radius: .25rem;
+    background: var(--gray30);
+    /* box-sizing: border-box; */
+    cursor: pointer;
+    transition: .3s background;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.playlistCompact:hover, .playlistCompact:focus-within{
+    background: rgb(83, 83, 83);
+}
+
+
+.playlistCompact-details {
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    padding: 1rem;
+    gap: 14.5rem;
+    align-items: center;
+}
+
+.playlistCompact-title {
+    font: var(--basefont-bold);
+    color: var(--white);
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.playlistCompact-cover img {
+    vertical-align: middle;
+    inline-size: 4rem;
+    block-size: 4rem;
+
+}
+
+.playlistCompact:hover .playlistCompact-control {
+    opacity: 1;
+}
+
+
+.playlistCompact-control {
+    opacity: 0;
+    transition: .3s;
+    
+}
+
+.playlistCompact-control button {
+    cursor: pointer;
+}
+
+

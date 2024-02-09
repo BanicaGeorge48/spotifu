@@ -1,25 +1,98 @@
 @import "./logo.css";
-@import "./list.css";
 @import "./menu.css";
+@import "./list.css";
 
 
 
 .sidebar {
-    background-color: var(--gray50);
+    /* border: 1px solid blue; */
+    
+    /* background-color: var(--gray60); */
     border-radius: 8px; 
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    padding-block-start: 1.5rem ;
-    padding-block-end: 1rem;
-    
-    inline-size: 15rem;
-    block-size: 42.5rem ;
-    overflow: auto;
+    gap: .5rem;
+    /* padding-block-start: 1.5rem ; */
+    /* padding-block-end: 1rem; */
 
 }
 
 .sidebar .list-item:hover::after {
     background-color: var(--gray20);
     border-radius: 8px;
+}
+
+
+.contentMenu{
+    /* border: 1px solid saddlebrown; */
+    border-radius: 10px;
+    background: var(--gray50);
+    padding-block: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 600px; */
+}
+
+.yourLibrary-content {
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+    /* border: 1px solid navy; */
+
+}
+
+.navigation-menu{
+    inline-size: 80px;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+
+
+
+.navigation-menu button {
+    border: none;
+    inline-size: 1.875rem;
+    block-size: 1.875rem;
+    border-radius: 50%;
+    background: var(--gray50);
+    color: aliceblue;
+    align-items: center;
+    transition: transform 0.2s;
+
+}
+
+.navigation-menu button:hover{
+    background: var(--gray40);
+    cursor: pointer;
+
+}
+
+.navigation-menu button i:hover{
+    color: aliceblue;
+}
+
+
+.navigation-addPlus i {
+    color: var(--gray20);
+    position: relative;
+    left: -2px;
+    bottom: -1px;
+    /* border: 1px solid salmon; */
+}
+
+.navigation-show i {
+    color: var(--gray20);
+    position: relative;
+    left: 1px;
+}
+
+
+.yourLibrary-content a{
+    padding: 0;
 }

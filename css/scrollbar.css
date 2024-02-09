@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+    inline-size: .5rem; 
+    block-size: .5rem;
+    background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--gray30);
+    border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: rgba(0, 0, 0, 0.24);
+    /* border-radius: 5px;  */
+}

@@ -1,0 +1,14 @@
+.contentRecents{
+    padding-inline: 1rem;
+}
+
+.contentRecents i{
+    color: var(--gray20);
+}
+
+
+.contentRecents-button{
+    background-color:var(--gray50);
+    border: none;
+    cursor: pointer;
+}

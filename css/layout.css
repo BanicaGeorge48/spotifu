@@ -1,0 +1,45 @@
+:root {
+    --sidebarInlineSize: 26rem;
+    --minBlockSize: 37.5rem;
+    --minInlineSize: 48rem;
+    --bottomSize: 5.5rem;
+
+
+}
+
+.layout{
+    /* background: green; */
+    /* margin: 10px; */
+    /* border: 10px solid saddlebrown; */
+    /* box-shadow: inset 0 0 0 10px red; */
+    min-inline-size: var(--minInlineSize);
+}
+
+.layout-sidebar{
+    inline-size: var(--sidebarInlineSize);
+    block-size: calc(98vh - var(--bottomSize));
+    min-block-size: var(--minBlockSize);
+    overflow: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+}
+
+.layout-main{
+    /* border: 1px solid saddlebrown; */
+    min-block-size: var(--minBlockSize);
+    block-size: calc(98vh - var(--bottomSize));
+    
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.layout-bottom{
+    flex: 1;
+    block-size: var(--bottomSize);
+
+}
+
+.layout-block{
+    display: flex;
+}

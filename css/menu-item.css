@@ -1,16 +1,20 @@
 .menuItem{
 
+
 }
 
 .menuItem a {
+    /* border: 1px solid saddlebrown; */
+
     display: flex;
-    font: var(--button);
+    font: var(--basefont-bold);
+    font-size: 16px;
     padding-inline-start: 1.5rem;
     padding-inline-end: 1.5rem;
-    block-size: 2.5rem;
+    block-size: 2.75rem;
     /* line-height: 2.5rem; */
     align-items: center;
-    gap: 1rem;
+    gap: 1.25rem;
     color: var(--gray20);
 }
 
@@ -30,7 +34,7 @@
 }
 
 .menuItem.is-active .icon-home::before {
-    content: "\e90a";
+    content: "\e90c";
 
 }
 

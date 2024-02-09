@@ -1,10 +1,14 @@
 @import "./menu-item.css";
 
-menu {
+.menu {
+    /* border: 1px solid blue; */
+    /* background: var(--gray50); */
+
 
 }
 
 .menu-list {
+
     padding: 0;
     margin: 0;
     list-style: none;

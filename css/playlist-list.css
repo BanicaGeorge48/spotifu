@@ -1,0 +1,52 @@
+.playlistList{
+    /* border: 1px solid blue; */
+
+    /* background: linear-gradient(to bottom, var(--gray40) 10%, var(--gray50) 90%); */
+    /* border-radius: 8px; */
+    /* border: 1px solid saddlebrown; */
+
+}
+
+.playlistList-top{
+    /* border: 1px solid saddlebrown; */
+    padding-block-end: .5rem;
+    padding-block-start: 1rem;
+    margin-block-end: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.playlistList-container {
+    /* border: 1px solid saddlebrown; */
+
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+}
+
+.playlistList-title{
+    font: var(--headline2);
+    font-size: 30px;
+    color: var(--white);
+    margin: 0;
+}
+
+.playlistList-container > * {
+    flex-shrink: 0;
+}
+
+
+.playlistList-containerCompact {
+    /* border: 1px solid saddlebrown; */
+    gap: .75rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    block-size: 8.75rem; 
+    /* inline-size: 60rem; */
+    overflow: hidden;
+}
+
+

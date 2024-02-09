@@ -1,0 +1,8 @@
+.footerCreditos{
+    background: black;
+    display: flex;
+}
+
+.footerCreditos-content{
+    color: aliceblue;
+}

@@ -1,6 +1,14 @@
+@import"./list-button.css";
+@import"./list-search.css";
+@import"./content-recents.css";
+
 .list{
     padding-inline-start: 1.5rem;
-    padding-inline-end: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    /* padding-inline-end: 1.5rem; */
+    /* border: 1px solid blue; */
+    /* background: var(--gray50); */
+
 }
 
 .list-title{
@@ -22,7 +30,7 @@
 .list-item a {
     font: var(--basefont-bold);
     display: block; /* Hace que el enlace ocupe todo el espacio del .list-item */
-    padding: .5rem; /* Ajusta el padding deseado */
+    padding: .5rem; 
     color: var(--white); /* Hereda el color del texto del contenedor */
     width: calc(100% - 2rem); /* Ajusta el ancho del enlace considerando el padding */
     height: 100%; /* Ocupa toda la altura del .list-item */
@@ -48,4 +56,3 @@
     border-radius: 8px;
     /* z-index: -1; Coloca el pseudo-elemento detrás del contenido */
 }
-
