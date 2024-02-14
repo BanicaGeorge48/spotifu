@@ -7,27 +7,22 @@
 @import "./sticky.css";
 
 .page{
-    padding-inline-start: .5rem;
+    /* padding-inline-start: .5rem; */
     padding-block-end: 2rem;
 
 
 }
 
 .page-block{
-    /* border-radius: 8px; */
+    
+    /* border: 1px solid saddlebrown; */
     /* background: linear-gradient(to bottom, var(--gray40) 10%, var(--gray50) 90%); */
-    background: rgba(39, 39, 39, 0.699);
-    padding-inline-start: 20px;
-    padding-inline-end: 20px;
+    /* background: rgba(39, 39, 39, 0.699); */
+    /* padding-inline-start: 20px; */
+    /* padding-inline-end: 20px; */
     display: flex;
     flex-direction: column;
     gap: 2em;
+    border-radius: .5rem;
 }
 
-.page .header {
-    border-start-start-radius: .5rem;
-    border-start-end-radius: .5rem;
-
-    /* border-radius:.5rem ; */
-
-}

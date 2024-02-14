@@ -1,6 +1,7 @@
 .listButton{
     /* background: gainsboro; */
-    margin-block: .75rem;
+    margin-block-start: .75rem;
+
     display: flex;
     gap: .5rem;
     inline-size: 20rem;

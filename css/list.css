@@ -3,50 +3,93 @@
 @import"./content-recents.css";
 
 .list{
-    padding-inline-start: 1.5rem;
+    padding-inline-start: 1rem;
     border: 1px solid rgba(0, 0, 0, 0);
     /* padding-inline-end: 1.5rem; */
     /* border: 1px solid blue; */
-    /* background: var(--gray50); */
+    /* background: var(--gray10); */
 
-}
-
-.list-title{
-    color: var(--gray10);
-    font: var(--basefont-normal);
-    margin-block-end: .5rem;
-    margin-block-start: 0;
 }
 
 .list-content {
     padding: 0;
-    margin: 0;
+    margin-inline-start: -10px;
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: .5rem;
-}
+    /* gap: .5rem; */
+    /* border: 1px solid blue; */
 
-.list-item a {
-    font: var(--basefont-bold);
-    display: block; /* Hace que el enlace ocupe todo el espacio del .list-item */
-    padding: .5rem; 
-    color: var(--white); /* Hereda el color del texto del contenedor */
-    width: calc(100% - 2rem); /* Ajusta el ancho del enlace considerando el padding */
-    height: 100%; /* Ocupa toda la altura del .list-item */
-    box-sizing: border-box; /* Incluye el padding en el cálculo del tamaño */
-    z-index: 1;
+
 }
 
 .list-item {
-    position: relative; /* Para poder posicionar el pseudo-elemento */
-    cursor: pointer;
-    z-index: 1;
+    display: flex;
+    border-radius: .5rem;
+    /* border: 1px solid red; */
+    max-inline-size: 25rem;
+    
+    transition: background-color 0.5s ease;
 }
 
-.list-item::after {
-    content: ""; /* Agrega un pseudo-elemento */
-    position: absolute; /* Lo posiciona de forma absoluta */
+.list-item:hover{
+    background: var(--gray40);
+}
+
+
+.list-item a {
+    padding: .3rem;
+    /* border: 1px solid green; */
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    text-decoration: none;
+    
+}
+
+
+.list-item img{
+    /* overflow: hidden; */
+    inline-size: 3.125rem;
+    block-size: 3.125rem;
+    border-radius: .5rem;
+
+
+}
+
+.list-title {
+    /* border: 1px solid yellow; */
+    line-height: 0;
+}
+
+.list-title h3{
+    font: var(--basefont-bold);
+    color: var(--white);
+    line-height: 0;
+
+}
+
+.list-title h4{
+    font: var(--basefont-normal);
+    color: var(--gray10);
+    line-height: 0;
+
+
+}
+
+.list-title h4::before {
+    content: "·"; /* Agrega el carácter "·" como contenido antes del texto del h3 */
+    font: var(--basefont-bold);
+    line-height: 0;
+}
+
+
+
+/* .list-item::after {
+    border: 1px solid blue;
+
+    content: ""; 
+    position: absolute; 
     top: 0;
     bottom: 0;
     left: 0;
@@ -54,5 +97,4 @@
     background-color: transparent; 
     transition: background-color 0.3s; 
     border-radius: 8px;
-    /* z-index: -1; Coloca el pseudo-elemento detrás del contenido */
-}
+} */

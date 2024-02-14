@@ -1,8 +1,25 @@
 .footerCreditos{
-    background: black;
+    border: 1px solid rgb(253, 253, 253);
     display: flex;
 }
 
 .footerCreditos-content{
+    inline-size: 19rem;
+    block-size: 10rem;
+    line-height: 1;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid seagreen;
+
     color: aliceblue;
+}
+
+.footerCreditos-content a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+
+.footerCreditos-content p{
+    color: var(--primary);
 }

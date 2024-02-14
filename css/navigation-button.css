@@ -1,0 +1,75 @@
+.yourLibrary-content {
+    margin: 5px;
+    margin-block-start: -3px;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    /* border: 1px solid navy; */
+    
+}
+
+.navigation-menu{
+    inline-size: 70px;
+    padding-left: 20px;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+
+
+
+.navigation-menu button {
+    
+    border: none;
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    border-radius: 50%;
+    background: var(--gray50);
+    align-items: center;
+    transition: transform 0.2s;
+
+}
+
+.navigation-menu button:hover{
+    background: var(--gray40);
+    cursor: pointer;
+
+}
+
+.navigation-menu button:hover i{
+    color: aliceblue;
+}
+
+
+.navigation-addPlus i {
+    color: var(--gray10);
+    position: relative;
+    left: -2px;
+    bottom: -1px;
+    /* border: 1px solid salmon; */
+}
+
+.navigation-show i {
+    color: var(--gray10);
+    position: relative;
+    left: 1px;
+    bottom: -1px;
+}
+
+
+.yourLibrary-content a{
+    padding: 0;
+    /* border: 1px solid saddlebrown; */
+
+}
+
+.yourLibrary-content h4{
+    /* border: 1px solid seagreen; */
+    margin-inline-start: -10px;
+}
+
+.navigation-menu button i {
+    font-size: 16px !important; /* Ajustar el tamaño del icono */
+}

@@ -3,8 +3,14 @@
 }
 
 .contentRecents i{
-    color: var(--gray20);
+    color: var(--gray10);
 }
+
+.contentRecents a{
+    color: var(--gray10);
+    
+}
+
 
 
 .contentRecents-button{
@@ -12,3 +18,15 @@
     border: none;
     cursor: pointer;
 }
+
+.contentRecents-button:hover a {
+    color: var(--white);
+
+}
+
+.contentRecents-button:hover i {
+    color: var(--white);
+}
+
+
+

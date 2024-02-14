@@ -1,5 +1,7 @@
 .playlistList{
     /* border: 1px solid blue; */
+    padding-inline: 1.25rem;
+    /* border: 1px solid blue; */
 
     /* background: linear-gradient(to bottom, var(--gray40) 10%, var(--gray50) 90%); */
     /* border-radius: 8px; */

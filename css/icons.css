@@ -86,6 +86,7 @@
 }
 .icon-heart:before {
   content: "\e90a";
+  color: var(--primary);
 }
 .icon-home:before {
   content: "\e90b";
