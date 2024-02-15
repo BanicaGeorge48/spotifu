@@ -33,3 +33,13 @@
 .buttonIcon:hover{
     transform: scale(1.05); 
 }
+
+.buttonIcon img{
+    border-radius: 50%;
+    inline-size: 15px;
+}
+
+.buttonIcon a{
+    text-decoration: none;
+    color: var(--gray10);
+}
