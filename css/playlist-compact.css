@@ -1,5 +1,4 @@
 .playlistCompact{
-    /* border: 1px solid saddlebrown; */
     display: flex;
     inline-size: 28.5rem;
     block-size: 4rem;
@@ -16,6 +15,9 @@
     background: rgb(83, 83, 83);
 }
 
+.playlistCompact-details a{
+    text-decoration: none;
+}
 
 .playlistCompact-details {
     /* border: 1px solid saddlebrown; */

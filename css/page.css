@@ -14,8 +14,8 @@
 }
 
 .page-block{
-    
-    /* border: 1px solid saddlebrown; */
+    /* background-color: var(--gray40); */
+    /* border: 5px solid saddlebrown; */
     /* background: linear-gradient(to bottom, var(--gray40) 10%, var(--gray50) 90%); */
     /* background: rgba(39, 39, 39, 0.699); */
     /* padding-inline-start: 20px; */

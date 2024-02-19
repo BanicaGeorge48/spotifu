@@ -11,6 +11,8 @@
 @import "./layout.css";
 @import "./scrollbar.css";
 @import "./search-page.css";
+@import "./liked-page.css";
+@import "";
 @import "";
 @import "";
 @import "./top-button.css";
@@ -21,7 +23,7 @@
 
 :root { 
   font-size: 16px;
-  --primary: #00b050; 
+  --primary: #06c95e; 
   --white: #ffffff; 
   --gray10: #b3b3b3; 
   --gray20: #737373; 

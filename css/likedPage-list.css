@@ -1,0 +1,45 @@
+
+
+.likedPage-list{
+    /* background-color: aliceblue; */
+    padding-inline: 1rem;
+    border-block-end: 1px solid var(--gray30);
+    margin-block-end: 1rem;
+    margin-inline:1.5rem ;
+    /* max-inline-size: 1200px; */
+}
+
+.likedpage-date{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.likedpage-date p{
+    color: var(--gray10);
+    margin: 0;
+    max-inline-size: 40rem;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.likedPage-time{
+    flex: 1;
+    max-inline-size: 2rem;
+}
+.likedPage-dateAddet {
+    flex: 1;
+    max-inline-size: 21.25rem;
+}
+.likedPage-album{
+    flex: 1;
+    max-inline-size: 23rem;
+}
+.likedPage-title{
+    flex: 1;
+    max-inline-size: 34.75rem;
+}
+.likedPage-number{
+    flex: 1;
+    max-inline-size: .5rem;
+}

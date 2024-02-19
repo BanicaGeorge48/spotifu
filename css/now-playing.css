@@ -36,3 +36,12 @@
     /* color: var(--white); */
 
 }
+
+
+.nowPlaying-actions button{
+    cursor: pointer;
+}
+
+.likedList-date button{
+    cursor: pointer;
+}

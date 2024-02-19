@@ -1,0 +1,93 @@
+@import"./likedPage-list.css";
+@import"./likedPage-listDetails.css";
+
+
+.likedPage{
+    background-image: linear-gradient(to bottom, rgb(79, 46, 141), #14055883);
+    block-size: 500px;
+    /* border: 1px solid saddlebrown; */
+    position: relative;
+    top: -50px;
+
+}
+
+.headerLiked-song{
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    margin: 1.5rem;
+    margin-block-start: 4.5rem;
+    gap: 1rem;
+    
+}
+
+.headerLiked-title{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.headerLiked-account{
+    display: flex;
+}
+.headerLiked-account img{
+    inline-size: 1.5rem;
+}
+.headerLiked-account a{
+    background-color: white;
+    display: flex;
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.headerLiked-account p{
+    line-height: .75;
+    color: white;
+    /* line-height: 0; */
+}
+.headerLiked-song h1{
+    color: rgba(255, 255, 255, 0.932);
+    font: var(--headline1);
+    font-size: 6rem;
+    /* border: 1px solid green; */
+    
+    /* line-height: 0; */
+    margin: 0px;
+}
+.headerLiked-song h4{
+    /* border: 1px solid green; */
+    color: white;
+    font: var(--smallfont);
+    font-size: .75rem;
+
+    margin: 0px;
+    /* line-height: 0; */
+}
+.likedimg{
+    inline-size: 15rem;
+    block-size: 15rem;
+    border-radius: .5rem;
+
+}
+
+.buttonPlay-page{
+    /* border: 2px solid saddlebrown; */
+    display: flex;
+    margin-inline-start: 1rem;
+    margin-block: 1rem;
+    margin-block-end: 2rem;
+
+
+}
+.buttonPlay-page button{
+    background-color: var(--primary);
+    inline-size: 60px;
+    block-size: 60px;
+    border-radius: 50%;
+    border: none;
+}
+.buttonPlay-page i{
+    /* background-color: aqua; */
+    font-size: 20px;
+}

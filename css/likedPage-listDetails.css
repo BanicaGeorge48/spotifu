@@ -1,0 +1,107 @@
+.likedList-page{
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    /* padding-block-start: 4.5rem; */
+    position: relative;
+    top: -240px;
+    backdrop-filter: blur(60px);
+    /* background-color: rgba(0, 0, 0, 0.521); */
+}
+.likedList {
+    /* border: 1px solid var(--gray30); */
+    border-radius: .5rem;
+    /* margin-inline: 1.5rem; */
+    block-size: 4rem;
+    /* margin-block: 0; */
+    margin-inline: 1rem;
+    padding-inline: 1rem;
+    padding-block: .01rem;
+    
+
+
+}
+
+.likedList:hover{
+    background: var(--gray30);
+}
+
+
+.contentLiked-list{
+    text-align: center;
+}
+
+
+.likedList-content{
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    flex-direction: row;
+    block-size: 3rem;
+    align-items: center;
+    margin-block: .5rem;
+}
+.likedList-content p{
+    
+    color: var(--gray10);
+}
+
+.likedList-title{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    padding-inline-start: 1rem;
+    flex: 1;
+    max-inline-size: 35.25rem;
+    text-align: start;
+}
+.likedList-cover{
+    block-size: 3rem;
+    inline-size: 3rem;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.likedList-title h3{
+    color: var(--white);
+    font:var(--basefont-normal) ;
+    margin: 0;
+}
+.likedList-title h4{
+    color: var(--gray10);
+    font:var(--basefont-normal) ;
+    margin: 0;
+}
+.likedList-details{
+    /* line-height: 0; */
+} 
+
+.likedList-album{
+    /* border: 1px solid skyblue; */
+    display: flex;
+    padding-inline-start: 1rem;
+    flex: 1;
+    max-inline-size: 23rem;
+}
+.likedList-album h4{
+    color: var(--gray10);
+    font:var(--basefont-normal) ;
+    margin: 0;
+}
+
+.likedList-date{
+    /* border: 1px solid skyblue; */
+    display: flex;
+    padding-inline-start: 1rem;
+    flex: 1;
+    max-inline-size: 22.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.likedList-date h4{
+    color: var(--gray10);
+    font:var(--basefont-normal) ;
+    margin: 0;
+}
+.likedList-time p{
+    color: var(--gray10);
+    font:var(--basefont-normal) ;
+    margin: 0;
+}
